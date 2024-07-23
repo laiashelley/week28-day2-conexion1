@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.fondoPokedex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.pokemonCard2, .pokemonCard1{
+    background-color: #0ef50e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(121, 12, 12, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#pokemonImage2, #pokemonImage1{
+    width: 200px;
+    height: 200px;
+}
+
+#pokemonNombre1, #pokemonNombre2, #descripcionMew, #descripcionMewtwo{
+    font-weight: bold;
+}
